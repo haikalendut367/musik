@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bp"
+
+    tools:context="com.example.muhammadhaikal.musik.MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Album Haikal"
+
+        android:id="@+id/textView"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="18dp"
+
+        android:textSize="30sp"
+
+        android:textColor="@android:color/background_light"
+
+        android:textStyle="normal|bold" />
+
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/textView"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="62dp">
+
+        <Button
+
+            android:text="DOLF dan WEIRD GENIUS DREAMS "
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button" />
+
+        <Button
+
+            android:text="RAP- Stranger"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button2" />
+
+        <Button
+
+            android:text="Weird Genius - WKWKWKW Land"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button3" />
+
+        <Button
+
+            android:text="SITIPSI - Alkohol"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button4" />
+
+        <Button
+
+            android:text="Iwan Fals - Pesawat Tempur"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button5" />
+
+        <Button
+
+            android:text="Iwan Falas - yang terlupakan"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button6" />
+
+    </LinearLayout>
+
+</RelativeLayout>
